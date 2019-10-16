@@ -1,6 +1,9 @@
 <template>
 <div class="bloc bgc-platinum l-bloc " id="bloc-1">
 	<div class="container bloc-lg">
+    <div class="row refresh">
+      <button @click="refresh()" class="btn btn-dark-magenta btn-sq btn-m">Refresh</button>
+    </div>
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
@@ -11,7 +14,7 @@
       </div>
     </div>
   </div>
-  <button @click="refresh()" class="btn btn-dark-magenta btn-sq btn-m">Refresh</button>
+  
 </div>
 </template>
 
@@ -52,3 +55,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.refresh {
+  margin-top: -35px;
+  margin-bottom: 30px;
+}
+</style>

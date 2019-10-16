@@ -4,7 +4,7 @@
       <div class="container bloc-sm">
         <nav class="navbar row">
           <div class="navbar-header">
-            <router-link class="navbar-brand ltc-white" to="/"><img src="/img/iot.png" alt="logo" width="45" height="45" />Alexa + AWS IoT Workshop</router-link>
+            <router-link class="navbar-brand ltc-white" to="/"><img src="/img/iot.png" alt="logo" width="45" height="45" />AIoT</router-link>
             <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
               <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
@@ -23,9 +23,11 @@
             </ul>
           </div>
         </nav>
+        <router-view/>
       </div>
+      
     </div>
-    <router-view/>
+    
     
   </div>
 </template>
